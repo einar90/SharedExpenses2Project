@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shared Expenses 2</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab_title_1">New</string>
+    <string name="tab_title_2">Log</string>
+    <string name="amount_hint">Amount</string>
+    <string name="description_hint">Description</string>
+    <string name="save_new_expense_button">Save</string>
+    <string name="cancel_new_expense_button">Cancel</string>
+    <string name="title_activity_initial_configuration">Initial Configuration</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_init_config">Initial Configuration</string>
+
+</resources>

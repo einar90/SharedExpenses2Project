@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical" >
+    <TableLayout
+            style="@style/layout_f_w"
+            android:stretchColumns="*" >
+        <TableRow
+                android:background="@android:color/white"
+                android:id="@+id/tableRow1"
+                style="@style/layout_wrap" >
+
+            <!-- First Tab indicator -->
+            <LinearLayout
+                    style="@style/indicator_style"
+                    android:id="@+id/first_tab"
+                    tools:ignore="Orientation">
+            </LinearLayout>
+
+            <!-- Second Tab indicator -->
+            <LinearLayout
+                    style="@style/indicator_style"
+                    android:id="@+id/second_tab"
+                    android:visibility="invisible"
+                    tools:ignore="Orientation">
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+    <!-- Bottom line -->
+    <LinearLayout
+            style="@style/h_line"
+            android:orientation="vertical" >
+    </LinearLayout>
+
+
+</LinearLayout>

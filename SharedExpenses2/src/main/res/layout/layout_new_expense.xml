@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@android:color/white"
+              android:gravity="center|center"
+              android:orientation="vertical" >
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:background="#e5e5e5">
+
+
+
+
+
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_box"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                >
+
+            <!-- Amount box -->
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:ems="10"
+                    android:id="@+id/TF_amount"
+                    android:layout_gravity="center"
+                    android:autoText="false"
+                    android:editable="false"
+                    android:hint="@string/amount_hint"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_box"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp">
+
+            <!-- Description box -->
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TF_description"
+                    android:hint="@string/description_hint"/>
+                </LinearLayout>
+
+
+        <!-- Person picker -->
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="1.0"
+                android:background="@drawable/background_box"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp">
+
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="50dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#737373"
+                    android:text="PersonOne"
+                    android:id="@+id/btn_person_one"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:onClick="Click_PersonOneCheck"
+                    android:background="@drawable/unchecked_background_box"/>
+
+            <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="50dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#737373"
+                    android:text="PersonTwo"
+                    android:id="@+id/btn_person_two"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:onClick="Click_PersonTwoCheck"
+                    android:background="@drawable/unchecked_background_box"/>
+        </LinearLayout>
+
+        <!-- Include horizontal divider line -->
+        <include layout="@layout/horz_divider"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content" />
+
+        <!-- Top action bar -->
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1.0"
+                android:layout_gravity="bottom"
+                android:gravity="center_vertical|center_horizontal"
+                android:baselineAligned="false">
+
+            <!-- Save button -->
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/save_new_expense_button"
+                    android:drawableLeft="@drawable/ic_accept"
+                    style="@android:style/MediaButton.Play"
+                    android:id="@+id/saveExpenseButton"
+                    android:onClick="Click_SaveExpense"/>
+
+
+
+            <!-- Cancel button -->
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cancel_new_expense_button"
+                    android:drawableLeft="@drawable/ic_cancel"
+                    style="@android:style/MediaButton.Play"
+                    android:id="@+id/cancelNewExpenseButton"
+                    android:layout_marginLeft="30dp"
+                    android:onClick="Click_CancelExpense"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
