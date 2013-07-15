@@ -53,7 +53,35 @@ public class MainActivity extends FragmentActivity {
         setContentView(R.layout.activity_main);
         setUpView();
         setTab();
+        registerGcm();
     }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        // Checking if this is the first startup
+        SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
+        boolean firstStart = sharedPref.getBoolean("firstStart", true);
+
+        // Running initial setup if firstStart == true
+        if (firstStart) {
+            //initialSetup();
+        }
+
+        // Initializing expense log if it is not empty
+        if (ExpenseList.getInstance().getList().size() > 0) {
+            initializeExpenseLog();
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+
     private void setUpView(){
         _mViewPager = (ViewPager) findViewById(R.id.viewPager);
         _adapter = new ViewPagerAdapter(getApplicationContext(),getSupportFragmentManager());
@@ -89,27 +117,6 @@ public class MainActivity extends FragmentActivity {
         });
 
     }
-
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-
-        // Checking if this is the first startup
-        SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
-        boolean firstStart = sharedPref.getBoolean("firstStart", true);
-
-        // Running initial setup if firstStart == true
-        if (firstStart) {
-            initialSetup();
-        }
-
-        // Initializing expense log if it is not empty
-        if (ExpenseList.getInstance().getList().size() > 0) {
-            initializeExpenseLog();
-        }
-    }
-
     private void initializeExpenseLog() {
         expenseLogListView = (ListView) findViewById(R.id.logView);
         expenseLogItemAdapter = new ExpenseLogItemAdapter(this, android.R.layout.simple_list_item_1, ExpenseList.getInstance().getList());
@@ -125,12 +132,14 @@ public class MainActivity extends FragmentActivity {
 
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
+    private void registerGcm() {
+        // Register the app with the "Google Cloud Messaging" service
+        Intent intent = new Intent(this, RegisterActivity.class);
+        startActivity(intent);
     }
+
+
+
 
     /**
      * Setting initial data

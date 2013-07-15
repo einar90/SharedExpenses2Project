@@ -109,11 +109,22 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SharedExpenses2/src/main/java/com/einarbaumann/sharedexpenses2/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="30" selection-start="4649" selection-end="4649" vertical-scroll-proportion="0.6170599" vertical-offset="1200" max-vertical-offset="4020">
+            <state line="68" column="14" selection-start="2228" selection-end="2228" vertical-scroll-proportion="0.20623916" vertical-offset="661" max-vertical-offset="3860">
               <folding>
+                <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#setUpView#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#setTab#0;class#MainActivity#0" expanded="false" />
+                <element signature="method#initializeExpenseLog#0;class#MainActivity#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageEndpoint.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SharedExpenses2-endpoints/src/endpoint-src/java/com/einarbaumann/sharedexpenses2/messageEndpoint/MessageEndpoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="13" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="8360">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,10 +133,7 @@
         <entry file="file://$PROJECT_DIR$/SharedExpenses2/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="28" column="18" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="740">
-              <folding>
-                <element signature="e#604#622#0" expanded="true" />
-                <element signature="e#972#1008#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -133,7 +141,7 @@
       <file leaf-file-name="InitConfigActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SharedExpenses2/src/main/java/com/einarbaumann/sharedexpenses2/InitConfigActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+            <state line="6" column="13" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="580">
               <folding />
             </state>
           </provider>
@@ -142,11 +150,8 @@
       <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SharedExpenses2/src/main/res/layout/activity_main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="9" selection-start="1444" selection-end="1447" vertical-scroll-proportion="-10.04" vertical-offset="358" max-vertical-offset="1180">
-              <folding>
-                <element signature="e#936#957#0" expanded="true" />
-                <element signature="e#1363#1384#0" expanded="true" />
-              </folding>
+            <state line="43" column="9" selection-start="1444" selection-end="1447" vertical-scroll-proportion="0.0" vertical-offset="358" max-vertical-offset="1180">
+              <folding />
             </state>
           </provider>
           <provider editor-type-id="android-designer">
@@ -157,7 +162,7 @@
       <file leaf-file-name="ExpenseLogItemAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SharedExpenses2/src/main/java/com/einarbaumann/sharedexpenses2/ExpenseLogItemAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="36" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.0" vertical-offset="372" max-vertical-offset="1260">
+            <state line="35" column="36" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1440">
               <folding />
             </state>
           </provider>
@@ -166,7 +171,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SharedExpenses2/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="54" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="13" column="54" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -175,12 +180,8 @@
       <file leaf-file-name="listitem.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SharedExpenses2/src/main/res/layout/listitem.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="42" selection-start="403" selection-end="403" vertical-scroll-proportion="-5.6" vertical-offset="0" max-vertical-offset="1040">
-              <folding>
-                <element signature="tag#LinearLayout#0;tag#LinearLayout#0" expanded="false" />
-                <element signature="tag#TextView#0;tag#LinearLayout#0;tag#LinearLayout#0" expanded="false" />
-                <element signature="tag#TextView#1;tag#LinearLayout#0;tag#LinearLayout#0" expanded="false" />
-              </folding>
+            <state line="7" column="42" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1520">
+              <folding />
             </state>
           </provider>
           <provider editor-type-id="android-designer">
@@ -191,7 +192,7 @@
       <file leaf-file-name="layout_expense_log.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SharedExpenses2/src/main/res/layout/layout_expense_log.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="36" selection-start="1076" selection-end="1076" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="640">
+            <state line="25" column="36" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="640">
               <folding />
             </state>
           </provider>
@@ -225,8 +226,16 @@
           <value>
             <list>
               <ExternalProjectPojo>
+                <option name="name" value="SharedExpenses2-endpoints" />
+                <option name="path" value="$PROJECT_DIR$/SharedExpenses2-endpoints/build.gradle" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
                 <option name="name" value="SharedExpenses2" />
                 <option name="path" value="$PROJECT_DIR$/SharedExpenses2/build.gradle" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="SharedExpenses2-AppEngine" />
+                <option name="path" value="$PROJECT_DIR$/SharedExpenses2-AppEngine/build.gradle" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="SharedExpenses2Project" />
@@ -255,10 +264,56 @@
         <option value="$PROJECT_DIR$/SharedExpenses2/src/main/res/layout/layout_expense_log.xml" />
         <option value="$PROJECT_DIR$/SharedExpenses2/src/main/java/com/einarbaumann/sharedexpenses2/configuration/InitialConfigurationActivity.java" />
         <option value="$PROJECT_DIR$/SharedExpenses2/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/SharedExpenses2/src/main/java/com/einarbaumann/sharedexpenses2/MainActivity.java" />
         <option value="$PROJECT_DIR$/SharedExpenses2/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/SharedExpenses2/src/main/java/com/einarbaumann/sharedexpenses2/MainActivity.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SharedExpenses2-AppEngine" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SharedExpenses2-AppEngine" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="SharedExpenses2-AppEngine" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="appengine" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -292,7 +347,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -304,10 +359,6 @@
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Android 4.2.2 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -329,7 +380,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SharedExpenses2" />
+              <option name="myItemId" value="SharedExpenses2-endpoints" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -343,7 +394,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="SharedExpenses2-endpoints" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="SharedExpenses2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SharedExpenses2Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SharedExpenses2-endpoints" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -351,7 +420,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="endpoint-src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -365,7 +438,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SharedExpenses2" />
+              <option name="myItemId" value="SharedExpenses2-endpoints" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -373,11 +446,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="endpoint-src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sharedexpenses2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messageEndpoint" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -391,7 +472,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SharedExpenses2" />
+              <option name="myItemId" value="SharedExpenses2-endpoints" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -399,97 +480,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SharedExpenses2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SharedExpenses2Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SharedExpenses2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SharedExpenses2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SharedExpenses2Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SharedExpenses2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SharedExpenses2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SharedExpenses2Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SharedExpenses2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="endpoint-src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -503,7 +494,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -520,9 +511,10 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Arcade_Testing" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -533,6 +525,54 @@
     </key>
   </component>
   <component name="RunManager" selected="Android Application.SharedExpenses2">
+    <configuration default="false" name="SharedExpenses2-AppEngine [appengine:update]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="appengine:update" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/SharedExpenses2-AppEngine" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -640,9 +680,50 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="SharedExpenses2-AppEngine [appengine:devserver]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value=" -Xmx512m" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="appengine:devserver" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/SharedExpenses2-AppEngine" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Android Application.SharedExpenses2" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.SharedExpenses2-AppEngine [appengine:devserver]" />
+      <item index="2" class="java.lang.String" itemvalue="Maven.SharedExpenses2-AppEngine [appengine:update]" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Maven.SharedExpenses2-AppEngine [appengine:update]" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -695,9 +776,8 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25320512" sideWeight="0.6703786" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25320512" sideWeight="0.6714922" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24493062" sideWeight="0.28619152" order="2" side_tool="true" content_ui="tabs" />
@@ -709,13 +789,14 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24493062" sideWeight="0.6703786" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.6714922" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24493062" sideWeight="0.6714922" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32850778" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -780,27 +861,15 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SharedExpenses2/src/main/java/com/einarbaumann/sharedexpenses2/model/ExpenseList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="28" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="760">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/SharedExpenses2/libs/android-support-v4.jar!/android/support/v4/view/ViewPager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="0.18587361" vertical-offset="0" max-vertical-offset="6980">
-          <folding />
-        </state>
+        <state line="6" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="0.18587361" vertical-offset="0" max-vertical-offset="6980" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SharedExpenses2/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="9" selection-start="1444" selection-end="1447" vertical-scroll-proportion="-10.04" vertical-offset="358" max-vertical-offset="1180">
-          <folding>
-            <element signature="e#936#957#0" expanded="true" />
-            <element signature="e#1363#1384#0" expanded="true" />
-          </folding>
+        <state line="43" column="9" selection-start="1444" selection-end="1447" vertical-scroll-proportion="0.0" vertical-offset="358" max-vertical-offset="1180">
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -852,9 +921,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SharedExpenses2/src/main/java/com/einarbaumann/sharedexpenses2/model/Expense.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="27" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="1120">
-          <folding />
-        </state>
+        <state line="36" column="27" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="1120" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SharedExpenses2/src/main/java/com/einarbaumann/sharedexpenses2/NewExpenseFragment.java">
@@ -866,12 +933,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SharedExpenses2/src/main/res/layout/listitem.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="42" selection-start="403" selection-end="403" vertical-scroll-proportion="-5.6" vertical-offset="0" max-vertical-offset="1040">
-          <folding>
-            <element signature="tag#LinearLayout#0;tag#LinearLayout#0" expanded="false" />
-            <element signature="tag#TextView#0;tag#LinearLayout#0;tag#LinearLayout#0" expanded="false" />
-            <element signature="tag#TextView#1;tag#LinearLayout#0;tag#LinearLayout#0" expanded="false" />
-          </folding>
+        <state line="7" column="42" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1520">
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -880,7 +943,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SharedExpenses2/src/main/res/layout/layout_expense_log.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="36" selection-start="1076" selection-end="1076" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="640">
+        <state line="25" column="36" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="640">
           <folding />
         </state>
       </provider>
@@ -898,10 +961,7 @@
     <entry file="file://$PROJECT_DIR$/SharedExpenses2/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="18" selection-start="1049" selection-end="1049" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="740">
-          <folding>
-            <element signature="e#604#622#0" expanded="true" />
-            <element signature="e#972#1008#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -912,12 +972,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SharedExpenses2-endpoints/src/endpoint-src/java/com/einarbaumann/sharedexpenses2/messageEndpoint/MessageEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="13" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="8360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SharedExpenses2/src/main/java/com/einarbaumann/sharedexpenses2/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="30" selection-start="4649" selection-end="4649" vertical-scroll-proportion="0.6170599" vertical-offset="1200" max-vertical-offset="4020">
+        <state line="68" column="14" selection-start="2228" selection-end="2228" vertical-scroll-proportion="0.20623916" vertical-offset="661" max-vertical-offset="3860">
           <folding>
+            <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" expanded="false" />
             <element signature="method#setUpView#0;class#MainActivity#0" expanded="false" />
             <element signature="method#setTab#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#initializeExpenseLog#0;class#MainActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>

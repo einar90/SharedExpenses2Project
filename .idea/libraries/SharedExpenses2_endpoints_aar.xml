@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="SharedExpenses2-endpoints.aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SharedExpenses2/build/exploded-bundles/SharedExpenses2-endpoints.aar/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SharedExpenses2/build/exploded-bundles/SharedExpenses2-endpoints.aar/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

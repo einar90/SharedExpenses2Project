@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SharedExpenses2/SharedExpenses2.iml" filepath="$PROJECT_DIR$/SharedExpenses2/SharedExpenses2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SharedExpenses2-AppEngine/SharedExpenses2-AppEngine.iml" filepath="$PROJECT_DIR$/SharedExpenses2-AppEngine/SharedExpenses2-AppEngine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SharedExpenses2-endpoints/SharedExpenses2-endpoints.iml" filepath="$PROJECT_DIR$/SharedExpenses2-endpoints/SharedExpenses2-endpoints.iml" />
       <module fileurl="file://$PROJECT_DIR$/SharedExpenses2Project.iml" filepath="$PROJECT_DIR$/SharedExpenses2Project.iml" />
     </modules>
   </component>

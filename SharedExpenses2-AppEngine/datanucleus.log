@@ -1,0 +1,10 @@
+20:45:25,421 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+20:45:25,617 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+20:45:25,842 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Users\Einar\Programming\Android\Projects\SharedExpenses2Project\SharedExpenses2-AppEngine\target\SharedExpenses2-AppEngine-1.0\WEB-INF\classes\com\einarbaumann\sharedexpenses2\DeviceInfo.class" with enhanced definition
+20:45:25,851 (main) INFO  [DataNucleus.Enhancer] - Writing class file "C:\Users\Einar\Programming\Android\Projects\SharedExpenses2Project\SharedExpenses2-AppEngine\target\SharedExpenses2-AppEngine-1.0\WEB-INF\classes\com\einarbaumann\sharedexpenses2\MessageData.class" with enhanced definition
+20:45:25,854 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=181 ms, enhance=55 ms, total=236 ms. Consult the log for full details
+20:53:11,798 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+20:53:11,963 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+20:53:12,159 (main) INFO  [DataNucleus.Enhancer] - Class "com.einarbaumann.sharedexpenses2.DeviceInfo" is already enhanced.
+20:53:12,161 (main) INFO  [DataNucleus.Enhancer] - Class "com.einarbaumann.sharedexpenses2.MessageData" is already enhanced.
+20:53:12,161 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 2 classes. Timings : input=173 ms, enhance=24 ms, total=197 ms. Consult the log for full details

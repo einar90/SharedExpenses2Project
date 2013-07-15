@@ -1,1 +1,1 @@
-include ':SharedExpenses2'
+include ':SharedExpenses2', ':SharedExpenses2-AppEngine', ':SharedExpenses2-endpoints'
